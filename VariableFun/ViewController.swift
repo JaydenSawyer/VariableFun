@@ -20,6 +20,7 @@ class ViewController: UIViewController, UITextFieldDelegate {
     var horse: Double! // declaring a non optional(cant be nil)
     var ant: String? //declaring a variable(must initialize in init/constructor)
     var git = true
+    var home = false
     
     @IBOutlet weak var textFieldOutlet: UITextField!
     override func viewDidLoad() {
